@@ -75,5 +75,34 @@ ng serve
 
 1.6 example to create new angular application
 ```
+npm install -g @angular/cli
 ng new my-first-app
+```
+To create a component from the CLI, use:
+```
+ng generate component <component-name> OR ng g c <component-name>
+```
+1.7 We can create a directive in Angular by using the command
+```
+ng generate directive <directive-name> OR ng g d <directive-name>
+```
+1.8 To create a service from the CLI, use the command:
+```
+ng generate service <service-name>
+or
+ng g s <service-name>
+```
+1.9 compile application
+```
+ng serve
+```
+2.0 We can also create modules using the command:
+```
+ng generate module <module-name> 
+or 
+ng g m <module-name>
+```
+2.1 to run angular with different port
+```
+ng serve --port 440
 ```
